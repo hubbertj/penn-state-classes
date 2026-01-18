@@ -1,0 +1,28 @@
+# --- Jupyter Notebook Metadata ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Prevents bloated git history from Jupyter autosaves
+
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+# Standard Python ignore rules
+
+# --- VS Code & IDE ---
+.vscode/
+# Note: Keep this if you want to share workspace settings, 
+# but usually better to ignore it in a personal student repo.
+
+# --- Docker & System ---
+.DS_Store
+Thumbs.db
+docker-compose.override.yml
+# Mac/Windows system files and local docker overrides
+
+# --- Course Specifics ---
+# Do NOT ignore *.pdf since your assignments must be tracked.
+# Do NOT ignore *.ipynb as these are your primary coding files.
